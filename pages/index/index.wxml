@@ -1,13 +1,12 @@
-<!--index.wxml-->
-<view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
-  </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
-  </view>
-</view>
+<map id="myMap" show-location>
+  <cover-image class='i-currentLocation' src="/assets/index/currentLocation.png"></cover-image>
+  <cover-view class='btn-moveToLocation' bindtap='moveToLocation'>
+    <cover-image src="/assets/index/locate.png" class="i-moveToLocation"></cover-image>
+  </cover-view>
+  <cover-view class='btn-borrow btn-text'>
+    借
+  </cover-view>
+  <cover-view class='btn-return btn-text'>
+    还
+  </cover-view>
+</map>

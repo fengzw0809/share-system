@@ -1,0 +1,21 @@
+<view class="userinfo-container">
+  <image src="{{userInfo.avatarUrl}}" class="avatar"></image>
+  <text class="nickname">{{userInfo.nickName}}</text>
+</view>
+
+<view class="user-stuff">
+  <view>
+    <text>我的订单</text>
+    <image src='/assets/mine/order.png'></image>
+  </view>
+  <view>
+    <text>我的钱包</text>
+    <image src='/assets/mine/wallet.png'></image>
+  </view>
+  <view>
+    <text>我的优惠券</text>
+    <image src='/assets/mine/coupon.png'></image>
+  </view>
+  <view></view>
+</view>
+

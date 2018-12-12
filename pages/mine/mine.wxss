@@ -1,0 +1,53 @@
+.userinfo-container{
+  text-align: center;
+  padding-top: 40rpx;
+  padding-bottom: 30rpx;
+  background: white;
+}
+
+.avatar{
+  border-radius: 50%;
+  width: 180rpx;
+  height: 180rpx;
+  margin: auto;
+  display: block;
+  margin-bottom: 25rpx;
+  border: 2rpx white solid;
+  box-shadow: 2rpx 2rpx 1rpx #888888;
+}
+
+.nickname{
+  font-size: 32rpx;
+  font-weight: bold;
+}
+
+.user-stuff{
+  margin-top: 50rpx;
+  margin-right: -4rpx;
+  overflow: hidden;
+}
+
+.user-stuff > view{
+  float: left;
+  width: 373rpx;
+  margin-bottom: 4rpx;
+  margin-right: 4rpx;
+  background: white;
+  height: 200rpx;
+}
+
+.user-stuff text{
+  display: inline-block;
+  height: 200rpx;
+  font-size: 30rpx;
+  line-height: 200rpx;
+  padding-left: 40rpx;
+}
+
+.user-stuff image{
+  float: right;
+  margin-right: 50rpx;
+  margin-top: 55rpx;
+  height: 90rpx;
+  width: 90rpx;
+}
