@@ -1,0 +1,34 @@
+.order-outline{
+  padding: 20rpx 30rpx 0;
+  font-size: 32rpx;
+}
+
+.order-id{
+  color: #6b6b6b;
+}
+
+.order-status{
+  color: #0ccaa7;
+}
+
+.right{
+  display: block;
+  float: right;
+}
+
+.order-info{
+  background: white;
+  color: gray;
+  font-size: 31rpx;
+  line-height: 70rpx;
+  padding: 10rpx 30rpx;
+  margin-top: 30rpx;
+}
+
+.title{
+  text-align: center;
+}
+
+.order-info text{
+  display: block;
+}

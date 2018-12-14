@@ -1,0 +1,22 @@
+.topBar{
+  background-color: #72b990;
+  height: 80rpx;
+}
+
+.topBar-item{
+  width: 375rpx;
+  height: 80rpx;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  font-size: 32rpx;
+  padding-top: 10rpx;
+}
+
+.select-line{
+  background-color: white;
+  width: 40%;
+  height: 2px;
+  margin: auto;
+  margin-top: 5rpx;
+}

@@ -1,0 +1,44 @@
+.coupon-container{
+  width: 700rpx;
+  background: white;
+  height: 280rpx;
+  margin: auto;
+  margin-top: 80rpx;
+  border-radius: 20rpx;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 30rpx #b7b7b7;
+}
+
+.coupon-discount{
+  display: block;
+  color: #ff6363;
+  font-size: 75rpx;
+  position: absolute;
+  top: 30rpx;
+  left: 50rpx;
+}
+
+.coupon-condition{
+  display: block;
+  position: absolute;
+  top: 135rpx;
+  left: 65rpx;
+  font-size: 25rpx;
+}
+
+.coupon-due{
+  display: block;
+  position: absolute;
+  top: 175rpx;
+  left: 65rpx;
+  font-size: 25rpx;
+}
+
+.i-coupon{
+  height: 200rpx;
+  width: 263rpx;
+  position: absolute;
+  bottom: -30rpx;
+  right: -30rpx;
+}

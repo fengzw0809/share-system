@@ -1,0 +1,18 @@
+<view class='topBar'>
+  <view class="topBar-item" bindtap='changeSelectionToOngoing'>
+    <text>租借中</text>
+    <view class="select-line" wx:if="{{selection === 'ongoing'}}"></view>
+  </view>
+  <view class="topBar-item" bindtap='changeSelectionToFinished'>
+    <text>已完成</text>
+    <view class='select-line' wx:if="{{selection === 'finished'}}"></view>
+  </view>
+</view>
+
+<view wx:if="{{selection === 'ongoing'}}">
+  <order-item wx:for="{{ongoing_orders}}" wx:for-item="order" wx:key="order.id" data-id="{{order.id}}" order="{{order}}" bindtap="navigateToOrderDetail"></order-item>
+</view>
+
+<view wx:if="{{selection === 'finished'}}">
+  <order-item wx:for="{{finished_orders}}" wx:for-item="order" wx:key="order.id" data-id="{{order.id}}" order="{{order}}" bindtap="navigateToOrderDetail"></order-item>
+</view>

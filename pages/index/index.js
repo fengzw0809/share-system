@@ -5,7 +5,15 @@ Page({
     this.mapCtx = wx.createMapContext('myMap');
     this.mapCtx.moveToLocation()
   },
-  moveToLocation() {
+  moveToLocation: function () {
     this.mapCtx.moveToLocation()
+  },
+  scanCode: function() {
+    wx.scanCode({
+      onlyFromCamera: true,
+      success(res) {
+        console.log(res)
+      }
+    })
   }
 })

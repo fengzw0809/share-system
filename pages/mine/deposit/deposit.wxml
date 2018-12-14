@@ -1,0 +1,28 @@
+<view wx:if="{{isDepositPaid === false}}">
+  <text class="title">租借前需充值押金</text>
+  <text class='tip'>归还后，可在此页面提现。</text>
+  <view class='deposit-container'>
+    <text class="deposit-amount">￥99</text>
+    <text class="deposit-text">押金</text>
+    <image src='/assets/mine/deposit/wallet.png' class='i-wallet'></image>
+  </view>
+  <view class='wechat-pay-container'>
+    <view class='i-wechat-pay'>
+      <image src='/assets/mine/deposit/payment.png'></image>
+    </view>
+    <text>微信支付</text>
+    <radio color="#08d908" checked="true" class='radio'></radio>
+  </view>
+  <button>确认支付</button>
+</view>
+
+<view wx:else>
+  <text class="title">您已缴纳押金</text>
+  <text class='tip'>押金可提现</text>
+  <view class='deposit-container'>
+    <text class="deposit-amount">￥99</text>
+    <text class="deposit-text">押金</text>
+    <image src='/assets/mine/deposit/wallet.png' class='i-wallet'></image>
+  </view>
+  <button>退还押金</button>
+</view>

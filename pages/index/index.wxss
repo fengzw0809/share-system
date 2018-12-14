@@ -36,10 +36,10 @@ map{
 .btn-text{
   text-align: center;
   line-height: 80rpx;
-  color: #444444;
+  color:  white;
   font-size: 33rpx;
   border-radius: 50%;
-  background: white;
+  background: #444444;
   height: 80rpx;
   width: 80rpx; 
   vertical-align: middle;

@@ -1,0 +1,6 @@
+<view class='coupon-container'>
+  <text class="coupon-discount">￥{{coupon.discount}}</text>
+  <text class="coupon-condition">满{{coupon.condition}}元可用</text>
+  <text class="coupon-due">有效期至{{coupon.due}}</text>
+  <image src='/assets/mine/coupon/coupon.png' class='i-coupon'></image>
+</view>

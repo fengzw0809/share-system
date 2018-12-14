@@ -3,10 +3,10 @@
   <cover-view class='btn-moveToLocation' bindtap='moveToLocation'>
     <cover-image src="/assets/index/locate.png" class="i-moveToLocation"></cover-image>
   </cover-view>
-  <cover-view class='btn-borrow btn-text'>
+  <cover-view class='btn-borrow btn-text' bindtap='scanCode'>
     借
   </cover-view>
-  <cover-view class='btn-return btn-text'>
+  <cover-view class='btn-return btn-text' bindtap='scanCode'>
     还
   </cover-view>
 </map>

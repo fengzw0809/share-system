@@ -1,0 +1,29 @@
+.order-container{
+  background: white;
+  margin-top: 30rpx;
+}
+
+.order-main-info{
+  color: #a7a7a7;
+  font-size: 28rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+  padding: 0 30rpx;
+}
+
+.right{
+  display: block;
+  float: right;
+}
+
+.separate-line{
+  background: #f8f8f8;
+  height: 3rpx;
+  width: 750rpx;
+}
+
+.order-detail-info{
+  font-size: 30rpx;
+  line-height: 60rpx;
+  padding: 10rpx 30rpx;
+}

@@ -1,13 +1,17 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/mine/mine"
+    "pages/mine/mine",
+    "pages/orderList/orderList",
+    "pages/orderDetail/orderDetail",
+    "pages/mine/couponList/couponList",
+    "pages/mine/deposit/deposit"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "共享系统",
-    "navigationBarTextStyle": "black"
+    "navigationBarBackgroundColor": "#72b990",
+    "navigationBarTextStyle": "white"
   },
   "tabBar": {
     "color": "#2c2c2c",
@@ -23,7 +27,7 @@
       },
       {
         "text": "订单",
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/orderList/orderList",
         "iconPath": "assets/tabbar/order.png",
         "selectedIconPath": "assets/tabbar/order_fill.png"
       },

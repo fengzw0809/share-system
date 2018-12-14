@@ -4,15 +4,17 @@
 </view>
 
 <view class="user-stuff">
-  <view>
+  <view bindtap='navigateToOrder'>
     <text>我的订单</text>
     <image src='/assets/mine/order.png'></image>
   </view>
-  <view>
-    <text>我的钱包</text>
-    <image src='/assets/mine/wallet.png'></image>
+  <view bindtap="navigateToDeposit">
+    <image src='/assets/mine/deposit.png'></image>
+    <text class='deposit-text'>我的押金</text>
+    <text class='deposit-status warning' wx:if="{{!user.isDepositPaid}}">未缴纳</text>
+    <text class='deposit-status pass' wx:else>已缴纳</text>
   </view>
-  <view>
+  <view bindtap="navigateToCoupon">
     <text>我的优惠券</text>
     <image src='/assets/mine/coupon.png'></image>
   </view>
