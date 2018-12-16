@@ -1,0 +1,8 @@
+<view class='location-container'>
+  <image src="{{location.photoSrc}}" class="location-photo"></image>
+  <text class='location-name'>{{location.name}}</text>
+  <view class='address-container'>
+    <image class="i-location" src='/assets/index/locate.png'></image>
+    <text>{{location.address}}</text>
+  </view>
+</view>

@@ -1,1 +1,1 @@
-<coupon-item wx:for="{{coupons}}" wx:for-item="coupon" wx:key="coupon.id" coupon="{{coupon}}"></coupon-item>
+<coupon-item wx:for="{{coupons}}" wx:for-item="coupon" wx:key="id" coupon="{{coupon}}"></coupon-item>

@@ -5,7 +5,8 @@
     "pages/orderList/orderList",
     "pages/orderDetail/orderDetail",
     "pages/mine/couponList/couponList",
-    "pages/mine/deposit/deposit"
+    "pages/mine/deposit/deposit",
+    "pages/locationList/locationList"
   ],
   "window": {
     "backgroundTextStyle": "light",

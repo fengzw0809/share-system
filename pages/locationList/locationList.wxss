@@ -1,0 +1,33 @@
+
+.btn-switch{
+  width: 750rpx;
+  height: 100rpx;
+  position: fixed;
+  bottom: 0;
+  background: white;
+  color: #333333;
+  font-size: 32rpx;
+  text-align: center;
+}
+
+.i-switch{
+  height: 60rpx;
+  width: 60rpx;
+  display: block;
+  float: left;
+  position: absolute;
+  top: 50%;
+  left: 37%;
+  margin-top: -30rpx;
+}
+
+.btn-switch >text{
+  display: block;
+  position: absolute;
+  height: 60rpx;
+  line-height: 60rpx;
+  top: 50%;
+  left: 50%;
+  margin-top: -30rpx;
+  margin-left: -30rpx;
+}

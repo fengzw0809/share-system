@@ -9,4 +9,7 @@
   <cover-view class='btn-return btn-text' bindtap='scanCode'>
     还
   </cover-view>
+  <cover-view class='btn-list' bindtap='navigateToLocationList'>
+    <cover-image src="/assets/index/list.png" class="i-list"></cover-image>
+  </cover-view>
 </map>

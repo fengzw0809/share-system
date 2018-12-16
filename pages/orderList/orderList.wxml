@@ -10,9 +10,9 @@
 </view>
 
 <view wx:if="{{selection === 'ongoing'}}">
-  <order-item wx:for="{{ongoing_orders}}" wx:for-item="order" wx:key="order.id" data-id="{{order.id}}" order="{{order}}" bindtap="navigateToOrderDetail"></order-item>
+  <order-item wx:for="{{ongoing_orders}}" wx:for-item="order" wx:key="id" data-id="{{order.id}}" order="{{order}}" bindtap="navigateToOrderDetail"></order-item>
 </view>
 
 <view wx:if="{{selection === 'finished'}}">
-  <order-item wx:for="{{finished_orders}}" wx:for-item="order" wx:key="order.id" data-id="{{order.id}}" order="{{order}}" bindtap="navigateToOrderDetail"></order-item>
+  <order-item wx:for="{{finished_orders}}" wx:for-item="order" wx:key="id" data-id="{{order.id}}" order="{{order}}" bindtap="navigateToOrderDetail"></order-item>
 </view>

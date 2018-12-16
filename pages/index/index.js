@@ -15,5 +15,10 @@ Page({
         console.log(res)
       }
     })
+  },
+  navigateToLocationList: function() {
+    wx.navigateTo({
+      url: '/pages/locationList/locationList',
+    })
   }
 })

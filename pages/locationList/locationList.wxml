@@ -1,0 +1,6 @@
+<location-item wx:for="{{locations}}" wx:for-item="location" wx:key="id" location="{{location}}" data-id="{{location.id}}"></location-item>
+
+<view class='btn-switch' bindtap='switchToMapMode'>
+  <image class='i-switch' src='/assets/index/switch.png'></image>
+  <text>切换为地图</text>
+</view>

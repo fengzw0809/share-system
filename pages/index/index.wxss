@@ -33,6 +33,26 @@ map{
   margin-top: -30rpx;
 }
 
+.btn-list{
+  position: fixed;
+  top: 120rpx;
+  right: 20rpx;
+  height: 80rpx;
+  width: 80rpx;
+  border-radius: 50%;
+  background: white;
+}
+
+.i-list {
+  height: 40rpx;
+  width: 40rpx;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -18rpx;
+  margin-top: -20rpx;
+}
+
 .btn-text{
   text-align: center;
   line-height: 80rpx;
@@ -49,11 +69,11 @@ map{
 .btn-borrow{
   position: fixed;
   right: 20rpx;
-  top: 120rpx;
+  top: 220rpx;
 }
 
 .btn-return{
   position: fixed;
   right: 20rpx;
-  top: 220rpx;
+  top: 320rpx;
 }
